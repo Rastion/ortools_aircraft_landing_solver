@@ -1,5 +1,5 @@
 {
-    "entry_point": "or_tools_aircraft_landing:ORToolsAircraftLanding",
+    "entry_point": "or_tools_aircraft_landing_solver:ORToolsAircraftLanding",
     "default_params": {
     },
     "creator": "Rastion",
