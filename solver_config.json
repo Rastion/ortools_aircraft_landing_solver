@@ -1,0 +1,24 @@
+{
+    "entry_point": "or_tools_aircraft_landing:ORToolsAircraftLanding",
+    "default_params": {
+    },
+    "creator": "Rastion",
+    "type": "optimizer",
+    "optimizer_name": "OR-Tools MIP/CP-SAT solver for Aircraft Landing",
+    "description": "Uses Google OR-Tools to build an integer/CP model of the aircraft landing problem, enforcing separation times with big-M constraints and summing earliness/tardiness costs in the objective.",
+    "compatible_problems": ["Rastion/aircraft_landing"],
+    "parameters": {
+    },
+    "requirements": [
+      "ortools",
+      "qubots"
+    ],
+    "keywords": [
+      "aircraft landing",
+      "OR-Tools",
+      "mip",
+      "cp-sat",
+      "optimization"
+    ]
+  }
+  
