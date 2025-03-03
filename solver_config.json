@@ -16,7 +16,7 @@
     "keywords": [
       "aircraft landing",
       "OR-Tools",
-      "mip",
+      "exact",
       "cp-sat",
       "optimization"
     ]
